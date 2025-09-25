@@ -1,0 +1,136 @@
+{
+    "model_results": {
+        "custom_logistic": {
+            "accuracy": 0.3502645502645503,
+            "weighted_f1": 0.33647758532359145,
+            "per_class_metrics": {
+                "0": {
+                    "precision": 0.23225806451612904,
+                    "recall": 0.19047619047619047,
+                    "f1-score": 0.20930232558139536,
+                    "support": 189.0
+                },
+                "1": {
+                    "precision": 0.25,
+                    "recall": 0.30687830687830686,
+                    "f1-score": 0.2755344418052256,
+                    "support": 189.0
+                },
+                "2": {
+                    "precision": 0.33482142857142855,
+                    "recall": 0.3968253968253968,
+                    "f1-score": 0.36319612590799033,
+                    "support": 189.0
+                },
+                "3": {
+                    "precision": 0.24545454545454545,
+                    "recall": 0.14285714285714285,
+                    "f1-score": 0.1806020066889632,
+                    "support": 189.0
+                },
+                "4": {
+                    "precision": 0.6026785714285714,
+                    "recall": 0.7142857142857143,
+                    "f1-score": 0.6537530266343826,
+                    "support": 189.0
+                },
+                "accuracy": 0.3502645502645503,
+                "macro avg": {
+                    "precision": 0.33304252199413487,
+                    "recall": 0.3502645502645502,
+                    "f1-score": 0.33647758532359145,
+                    "support": 945.0
+                },
+                "weighted avg": {
+                    "precision": 0.3330425219941349,
+                    "recall": 0.3502645502645503,
+                    "f1-score": 0.33647758532359145,
+                    "support": 945.0
+                }
+            }
+        },
+        "custom_forest": {
+            "accuracy": 0.6169312169312169,
+            "weighted_f1": 0.6134575491876891,
+            "per_class_metrics": {
+                "0": {
+                    "precision": 0.6296296296296297,
+                    "recall": 0.5396825396825397,
+                    "f1-score": 0.5811965811965812,
+                    "support": 189.0
+                },
+                "1": {
+                    "precision": 0.43005181347150256,
+                    "recall": 0.43915343915343913,
+                    "f1-score": 0.43455497382198954,
+                    "support": 189.0
+                },
+                "2": {
+                    "precision": 0.5270935960591133,
+                    "recall": 0.5661375661375662,
+                    "f1-score": 0.5459183673469388,
+                    "support": 189.0
+                },
+                "3": {
+                    "precision": 0.6114285714285714,
+                    "recall": 0.5661375661375662,
+                    "f1-score": 0.5879120879120879,
+                    "support": 189.0
+                },
+                "4": {
+                    "precision": 0.8679245283018868,
+                    "recall": 0.9735449735449735,
+                    "f1-score": 0.9177057356608479,
+                    "support": 189.0
+                },
+                "accuracy": 0.6169312169312169,
+                "macro avg": {
+                    "precision": 0.6132256277781408,
+                    "recall": 0.6169312169312169,
+                    "f1-score": 0.6134575491876891,
+                    "support": 945.0
+                },
+                "weighted avg": {
+                    "precision": 0.6132256277781406,
+                    "recall": 0.6169312169312169,
+                    "f1-score": 0.6134575491876891,
+                    "support": 945.0
+                }
+            },
+            "important_features": {
+                "State": 0.05830559891210527,
+                "Account length": 0.058532811842162406,
+                "Area code": 0.037274320866334205,
+                "International plan": 0.010411515398948981,
+                "Voice mail plan": 0.007740687963229611,
+                "Number vmail messages": 0.02508015643444918,
+                "Total day minutes": 0.04888979491521974,
+                "Total day calls": 0.05500734905189187,
+                "Total day charge": 0.04902111974516626,
+                "Total eve minutes": 0.04963639250406823,
+                "Total eve calls": 0.048924536270890495,
+                "Total eve charge": 0.04893083719413346,
+                "Total night minutes": 0.04834652244547137,
+                "Total night calls": 0.05317570364466914,
+                "Total night charge": 0.04794462916140994,
+                "Total intl minutes": 0.04608854940340107,
+                "Total intl calls": 0.0451154467436138,
+                "Total intl charge": 0.045484470300811,
+                "Churn": 0.10293947936597708,
+                "total_charges": 0.060203776922702845,
+                "calls_ratio": 0.05294630091334405
+            }
+        }
+    },
+    "class_distribution": {
+        "1": 945,
+        "2": 608,
+        "0": 555,
+        "3": 481,
+        "4": 77
+    },
+    "data_shape": {
+        "samples": 2666,
+        "features": 21
+    }
+}

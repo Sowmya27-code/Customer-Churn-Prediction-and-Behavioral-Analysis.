@@ -1,0 +1,20 @@
+=== Data Analysis Report ===
+
+1. Descriptive Statistics:
+             State  ...  Customer service calls
+count  2666.000000  ...             2666.000000
+mean     26.036009  ...                1.562641
+std      14.921792  ...                1.311236
+min       0.000000  ...                0.000000
+25%      13.000000  ...                1.000000
+50%      26.000000  ...                1.000000
+75%      39.000000  ...                2.000000
+max      50.000000  ...                9.000000
+
+[8 rows x 19 columns]
+
+2. Machine Learning Model Performance:
+{'Logistic Regression': {'Accuracy': 0.34182908545727136, 'Precision': 0.17406157602313393, 'Recall': 0.34182908545727136, 'F1-Score': 0.18770956596958077}, 'Random Forest Classifier': {'Accuracy': 0.3073463268365817, 'Precision': 0.2685566178925308, 'Recall': 0.3073463268365817, 'F1-Score': 0.2331370197668486}}
+
+3. NLP Results (if available):
+N/A
